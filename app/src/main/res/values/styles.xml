@@ -1,0 +1,43 @@
+<resources>
+
+    <style name="Base.Theme.HMKCodeApp" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/blue</item>
+
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/blue</item>
+
+        <!--   tab滑块的颜色 -->
+        <item name="colorAccent">@color/white</item>
+
+        <!--title tab选中的文字颜色 -->
+        <item name="android:textColorPrimary">@color/my_primary_text</item>
+
+        <!-- color of the menu overflow icon (three vertical dots) -->
+        <item name="android:textColorSecondary">@color/my_secondary_text</item>
+
+
+        <item name="android:windowBackground">@color/window_background</item>
+
+    </style>
+
+    <!--
+       Base application theme, dependent on API level. This theme is replaced
+       by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+   -->
+    <style name="AppBaseTheme" parent="Base.Theme.HMKCodeApp">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+
+
+</resources>
